@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,800,500italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:regular,700&display=swap");
+@font-face {
+    font-family: 'FBWhiteCatW34';
+    src: url('../fonts/FBWhiteCatW34-Regular.woff2') format('woff2'),
+        url('../fonts/FBWhiteCatW34-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
