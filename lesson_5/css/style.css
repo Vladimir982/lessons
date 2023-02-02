@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,900");
+/* reset style */
+@import url("reset.css");
+body {
+    font-family: 'Poppins';
+    line-height: 1.7;
+}
+/* --------------------------------- global sittings ----------------------------- */
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+}
+.text {
+    font-weight: 300;
+    color: #6C757D;
+}
+.container {
+    max-width: 820px;
+    margin: 0 auto;
+}
+/* -------------------------------- page__section-one -------------------------------------- */
+.page__section-one {
+    margin-top: 40px;
+}
+.section-one__title {
+    margin-bottom: 40px;
+    max-width: 400px;
+}
+.section-one__text>p{
+    margin-bottom: 37px;
+}
+/* image */
+.section-one__img {
+    padding-top: 43px;
+    text-align: center;
+    max-width: 100%;
+}
+/* -------------------------------- page__section-two -------------------------------------- */
+.page__section-two {
+    margin-top: 80px;
+}
+.section-two__title {
+    margin: 0px 0px 40px 0px;
+    max-width: 605px;
+}
+.section-two__text>p{
+    margin-bottom: 37px;
+}
+/* image */
+.sectiom-two__block {
+    padding-top: 43px;
+    text-align: center;
+    max-width: 100%;
+}
+.sectiom-two__block img {
+    margin-left: 30px;
+}
+/* -------------------------------- page__section-three -------------------------------------- */
+.section-three__text {
+    margin-top: 80px;
+}
+.section-three__text>p {
+    margin-bottom: 37px;
+}
