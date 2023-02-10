@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700");
+/* reset style */
+@import url("reset.css");
+body {
+    font-family: 'Poppins';
+    color: #6C757D;
+    font-size: 14px;
+    font-weight: 300;
+}
+/* --------------------------------- global sittings ----------------------------- */
+
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+/* --------------------------------- page__article ---------------------------------------- */
+.page__article {
+    padding: 80px 0px 0px;
+}
+.article__box-text {
+    max-width: 816px;
+    margin: 0px auto 80px;
+}
+.article__box-text p{
+    line-height: 1.78;
+	margin-bottom: 30px;
+}
+.article__title {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+}
+.article__images {
+	font-size: 0;
+}
+.article__image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.image-1 {
+	margin-right: 30px;
+}
+
+/* --------------------------------- page__article-clothes ---------------------------------------- */
+.page__article-clothes {
+    padding: 80px 0;
+}
+.article-clothes__main-image {
+    width: 100%;
+}
+.article-clothes__box-text {
+    max-width: 816px;
+    margin: 100px auto 80px;
+}
+.article-clothes__box-text p{
+    line-height: 1.78;
+    margin-bottom: 30px;
+}
+.article-clothes__title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 160%;
+    color: #212529;
+    max-width: 605px;
+    margin-bottom: 100px;
+}
+.article-clothes__images {
+	font-size: 0;
+}
+.article-clothes__image {
+    border-radius: 5px;
+    max-width: 100%;
+}
