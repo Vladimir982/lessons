@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600&display=wrap");
+/* reset style */
+@import url("reset.css");
+body {
+    font-family: "Inter";
+    background-color: rgb(193, 193, 193);
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+
+/* ================================================================= */
+[class*="__container"] {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.block_color {
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 30px;
+    border: 3px solid #000;
+    margin: 10px 0px;
+}
+.block1 {
+    background-color: #818a46;
+    transition: all 0.5s ease 0s;
+}
+.block1:hover {
+    transform: translate(10%, 40px);
+}
+.block2 {
+    background-color: #2a0808;
+    transition: all 0.5s ease 0s;
+}
+.block2:hover {
+    transform: scale(1.3);
+}
+.block3 {
+    background-color: #e37d7d;
+    transition: all 0.5s ease 0s;
+}
+.block3:hover {
+    transform: rotate(45deg);
+}
+.block4 {
+    background-color: #2a1f5a;
+    transition: all 0.5s ease 0s;
+}
+.block4:hover {
+    transform: skew(5deg, 5deg);
+}
+.block5 {
+    background-color: #359435;
+    transition: all 0.5s ease 0s;
+}
+.block5:hover {
+    transform: matrix(1.2, 0, 0.5, 1, 1, 1);
+}
+.block6 {
+    background-color: #3895a7;
+    transition: all 0.5s ease 0s;
+}
+.block6:hover {
+    transform: skew(2deg, 2deg) scale(1.1) rotate(-5deg);
+}
+.block7 {
+    background-color: #410a4c;
+    transition: all 0.5s ease 0s;
+    transform-origin: 0% 0%;
+}
+.block7:hover {
+    transform: rotate(9deg);
+}
+.block__item {
+    perspective: 400px;
+    perspective-origin: top top;
+}
+.block8 {
+    background-color: #c851a0;
+    transition: all 0.5s ease 0s;
+}
+.block8:hover {
+    transform: rotateX(-150deg);
+}
+.block9 {
+    background-color: #7c1f40;
+    transition: all 0.5s ease 0s;
+}
+.block9:hover {
+    transform: rotate3D(1, 2, 1, 15deg);
+}
+.flip {
+    max-width: 250px;
+    perspective: 400px;
+    transform-style: preserve-3d;
+}
+.flip__body {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    transition: all 1s ease;
+    transform-style: preserve-3d;
+}
+.flip__front,
+.flip__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* fout-size: ; */
+}
+.flip__front {
+    background-color: rgb(22, 78, 22);
+    transform: rotateX(0deg);
+    z-index: 2;
+
+    backface-visibility: hidden;
+}
+.flip__back {
+    background-color: rgb(21, 21, 126);
+    transform: rotateX(-180deg);
+}
+.flip:hover .flip__body {
+    transform: rotateX(-180deg);
+}
+/* ================================================================= */
+.page__my-car {
+}
+.my-car__body {
+    margin: 100px 0px;
+    width: 100%;
+    height: 500px;
+    border: 3px solid #000;
+    position: relative;
+}
+.my-car__frame {
+    position: absolute;
+    width: 500px; 
+    height: 250px;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+    background-color: #07034d;
+    border-radius: 0px 100px 0px 0px;
+}
+.my-car__frame::before {
+    content: '';
+    position: absolute;
+    width: 290px;
+    height: 160px;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    background-color: #03394d;
+}
+.my-car__frame::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    top: 0%;
+    left: 70%;
+    z-index: 1;
+    background-color: #638795;
+    border-radius: 0px 100px 0px 0px;
+}
+.my-car__light {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #39382e;
+    bottom: 20px;
+    right: -20px;
+    border-radius: 30px 0px 0px 30px;
+}
+.my-car__light::after {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 10px;
+    background-color: #c1b102;
+    bottom: 0px;
+    right: 0px;
+}
+.my-car__wheels {
+    position: absolute;
+	bottom: -45px;
+	width: 100%;
+	left: 0;
+}
+.my-car__wheel {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #000000;
+    border-radius: 50%;
+    border: 5px double #016022;
+}
+.my-car__wheel:first-child {
+	left: 50px;
+}
+.my-car__wheel:last-child {
+	right: 47px;
+}
