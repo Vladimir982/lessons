@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=wrap");
+/* reset style */
+@import url("reset.css");
+@import url("common.css");
+body {
+    font-family: "Poppins";
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: content-box;
+}
+/* ================================== page ===================================== */
+.page {
+}
+.page__achievement {
+}
+/* ================================== page__main =============================== */
+.achievement {
+    padding: 100px 0px;
+}
+.header-achievement {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    margin-bottom: 40px;
+}
+.header-achievement__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.header-achievement__line {
+    height: 2px;
+    width: 464px;
+    background-color: #000;
+}
+.achievement__section-achievement {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.section-achievement__item-achievement {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-achievement__img {
+}
+.item-achievement__body {
+    
+}
+.item-achievement__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.item-achievement__text {
+    max-width: 334px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+}
+/* ================================== page__about-design =============================== */
+.about-design {
+}
+.about-design__header-design {
+}
+.header-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    text-align: center;
+}
+.header-design__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    color: #000000;
+}
+.header-design__text {
+    max-width: 518px;
+    color: #000000;
+    padding-bottom: 13px;
+}
+.about-design__design-section {
+}
+.design-section {
+    padding-top: 100px;
+    padding-bottom: 82px;
+}
+.information-block {
+    display: flex;
+    justify-content: space-between;
+}
+.information-block__column {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.information-block__title {
+}
+.information-block__text {
+    max-width: 584px;
+    flex: 1 1 auto;
+}
+.information-block__text>p:not(:last-child) {
+    margin-bottom: 30px;
+}
+.information-block__block {
+    display: flex;
+    column-gap: 80px;
+}
+.information-block__date {
+}
+.information-block__author:hover {
+    text-decoration: underline;
+}
+
+.gallery-block {
+    padding-top: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+}
+.gallery-block__section {
+    display: flex;
+    column-gap: 32px;
+}
+.gallery-block__item-img {
+}
