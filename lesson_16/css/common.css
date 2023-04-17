@@ -1,0 +1,32 @@
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25; /* 20px/16 */
+    display: flex;
+    align-items: center;
+    color: #3F3F3F;
+}
+.text-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px/16px;
+    color: #637381;
+}
+.title {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 283.333333%; /* 68px/24 */
+    color: #000000;
+}
+.btn {
+    padding: 16px 40px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%; /* 21px/14 */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #000000;
+}
