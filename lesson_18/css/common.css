@@ -1,0 +1,19 @@
+.text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.08; /* 25px/12 */
+    color: rgba(73, 80, 87, 0.5);
+}
+.active {
+    color: #495057;
+}
+@media (max-width: 768.98px) {
+    .text {
+        font-size: 14px;
+    }
+}
+@media (max-width: 424.98px) {
+    .text {
+        font-size: 16px;
+    }
+}
